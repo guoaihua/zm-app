@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@koa/router': ^12.0.0
   '@types/node': ^18.7.1
+  dotenv: ^16.0.1
   ejs: ^3.1.8
   koa: ^2.13.4
   koa-views: ^8.0.0
@@ -12,6 +13,7 @@ specifiers:
 devDependencies:
   '@koa/router': 12.0.0
   '@types/node': 18.7.1
+  dotenv: mirrors.cloud.tencent.com/dotenv/16.0.1
   ejs: 3.1.8
   koa: 2.13.4
   koa-views: 8.0.0_ejs@3.1.8
@@ -118,7 +120,7 @@ packages:
   /@pm2/pm2-version-check/1.0.4:
     resolution: {integrity: sha512-SXsM27SGH3yTWKc2fKR4SYNxsmnvuBQ9dd6QHtEWmiZ/VqaOYPAIlS8+vMcn27YLtAEBGvNRSh3TPNvtjZgfqA==}
     dependencies:
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -192,7 +194,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -678,14 +680,6 @@ packages:
     resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
     dev: true
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /ftp/0.3.10:
     resolution: {integrity: sha1-kZfYYa2BQvPmPVqDv+TFn3MwiF0=}
     engines: {node: '>=0.8.0'}
@@ -712,7 +706,7 @@ packages:
     dependencies:
       '@tootallnate/once': mirrors.cloud.tencent.com/@tootallnate/once/1.1.2
       data-uri-to-buffer: 3.0.1
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
       file-uri-to-path: mirrors.cloud.tencent.com/file-uri-to-path/2.0.0
       fs-extra: mirrors.cloud.tencent.com/fs-extra/8.1.0
       ftp: 0.3.10
@@ -1132,7 +1126,7 @@ packages:
     dependencies:
       '@tootallnate/once': mirrors.cloud.tencent.com/@tootallnate/once/1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
       get-uri: 3.0.2
       http-proxy-agent: mirrors.cloud.tencent.com/http-proxy-agent/4.0.1
       https-proxy-agent: mirrors.cloud.tencent.com/https-proxy-agent/5.0.1
@@ -1197,20 +1191,6 @@ packages:
       charm: 0.1.2
     dev: true
 
-  /pm2-sysmonit/1.2.8:
-    resolution: {integrity: sha512-ACOhlONEXdCTVwKieBIQLSi2tQZ8eKinhcr9JpZSUAL8Qy0ajIgRtsLxG/lwPOW3JEKqPyw/UaHmTWhUzpP4kA==}
-    requiresBuild: true
-    dependencies:
-      async: mirrors.cloud.tencent.com/async/3.2.4
-      debug: 4.3.4
-      pidusage: mirrors.cloud.tencent.com/pidusage/2.0.21
-      systeminformation: 5.12.5
-      tx2: 1.0.5
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-    optional: true
-
   /pretty/2.0.0:
     resolution: {integrity: sha1-rbx5YLe7/iiaVX3F9zdhmiINBqU=}
     engines: {node: '>=0.10.0'}
@@ -1235,7 +1215,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
       http-proxy-agent: mirrors.cloud.tencent.com/http-proxy-agent/4.0.1
       https-proxy-agent: mirrors.cloud.tencent.com/https-proxy-agent/5.0.1
       lru-cache: mirrors.cloud.tencent.com/lru-cache/5.1.1
@@ -1275,7 +1255,7 @@ packages:
   /require-in-the-middle/5.1.0:
     resolution: {integrity: sha512-M2rLKVupQfJ5lf9OvqFGIT+9iVLnTmjgbOmpil12hiSQNn5zJTKGPoIisETNjfK+09vP3rpm1zJajmErpr2sEQ==}
     dependencies:
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
       module-details-from-path: 1.0.3
       resolve: mirrors.cloud.tencent.com/resolve/1.22.1
     transitivePeerDependencies:
@@ -1320,7 +1300,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
       socks: 2.7.0
     transitivePeerDependencies:
       - supports-color
@@ -1610,7 +1590,7 @@ packages:
       normalize-path: mirrors.cloud.tencent.com/normalize-path/3.0.0
       readdirp: mirrors.cloud.tencent.com/readdirp/3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: mirrors.cloud.tencent.com/fsevents/2.3.2
     dev: true
 
   mirrors.cloud.tencent.com/color-convert/2.0.1:
@@ -1664,6 +1644,13 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/deep-is/-/deep-is-0.1.4.tgz}
     name: deep-is
     version: 0.1.4
+    dev: true
+
+  mirrors.cloud.tencent.com/dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/dotenv/-/dotenv-16.0.1.tgz}
+    name: dotenv
+    version: 16.0.1
+    engines: {node: '>=12'}
     dev: true
 
   mirrors.cloud.tencent.com/emitter-listener/1.1.2:
@@ -1781,6 +1768,16 @@ packages:
     version: 1.0.0
     dev: true
 
+  mirrors.cloud.tencent.com/fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
   mirrors.cloud.tencent.com/function-bind/1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/function-bind/-/function-bind-1.1.1.tgz}
     name: function-bind
@@ -1839,7 +1836,7 @@ packages:
     dependencies:
       '@tootallnate/once': mirrors.cloud.tencent.com/@tootallnate/once/1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1851,7 +1848,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: mirrors.cloud.tencent.com/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2120,6 +2117,22 @@ packages:
       - supports-color
     dev: true
 
+  mirrors.cloud.tencent.com/pm2-sysmonit/1.2.8:
+    resolution: {integrity: sha512-ACOhlONEXdCTVwKieBIQLSi2tQZ8eKinhcr9JpZSUAL8Qy0ajIgRtsLxG/lwPOW3JEKqPyw/UaHmTWhUzpP4kA==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/pm2-sysmonit/-/pm2-sysmonit-1.2.8.tgz}
+    name: pm2-sysmonit
+    version: 1.2.8
+    requiresBuild: true
+    dependencies:
+      async: mirrors.cloud.tencent.com/async/3.2.4
+      debug: 4.3.4
+      pidusage: mirrors.cloud.tencent.com/pidusage/2.0.21
+      systeminformation: 5.12.5
+      tx2: 1.0.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+    optional: true
+
   mirrors.cloud.tencent.com/pm2/5.2.0:
     resolution: {integrity: sha512-PO5hMVhQ85cTszFM++6v07Me9hPJMkFbHjkFigtMMk+La8ty2wCi2dlBTeZYJDhPUSjK8Ccltpq2buNRcyMOTw==, registry: https://mirrors.tencent.com/npm/, tarball: https://mirrors.cloud.tencent.com/npm/pm2/-/pm2-5.2.0.tgz}
     name: pm2
@@ -2157,7 +2170,7 @@ packages:
       vizion: 2.2.1
       yamljs: 0.3.0
     optionalDependencies:
-      pm2-sysmonit: 1.2.8
+      pm2-sysmonit: mirrors.cloud.tencent.com/pm2-sysmonit/1.2.8
     transitivePeerDependencies:
       - bufferutil
       - supports-color
